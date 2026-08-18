@@ -1,22 +1,41 @@
-# React Full Mastery — Companion Repository
+# React Full Mastery — 150-Part Companion Repository
 
-Companion repository structure for the complete **150-part React Full Mastery** series by **Ram Sandesh**.
+Official companion repository for **React Full Mastery: Complete 150-Part Master Edition** by **Ram Sandesh**.
 
-Repository: `https://github.com/sanskarIN/react-master`
+**Repository:** https://github.com/sanskarIN/react-master
 
-## Scope
+## What this repository contains
 
-- `Part-001/` … `Part-150/` preserve one folder per numbered volume.
-- Each folder contains a README with the authoritative part title and source-status marker.
-- Historical companion source archives were not all available to the final master-publication build, so this scaffold **does not fabricate missing project code**. Copy surviving project source into its numbered folder, then run the validator.
-- Code intentionally published in this repository is recommended to use the MIT License. Book/manuscript/cover/editorial content remains separately copyrighted; see `BOOK-LICENSE.md`.
+- `Part-001/` through `Part-150/` — one companion workspace per numbered volume.
+- Architecture references, labs, capstone scaffolds, and validation tooling that are intentionally released as open source.
+- Documentation for contribution, security, publishing status, release governance, and source recovery.
+- A validator at `scripts/validate_all.py` that discovers actual JavaScript/TypeScript package projects and runs supported lint/test/build commands.
+
+## What this repository does not contain
+
+The commercial book manuscript, complete PDF/DOCX/EPUB editions, retail customer bundles, cover artwork, certificates, and commercial marketing assets are **not** published here. Historical companion source archives were not all available during the final master-publication build, so missing project code is never fabricated.
+
+## Licensing
+
+- Original companion source code intentionally published here: **MIT License** (`LICENSE`).
+- Book/manuscript/editorial/cover/commercial publication content: **All Rights Reserved** (`BOOK-LICENSE.md`).
 
 ## Validation
 
-Run `python scripts/validate_all.py`. The validator discovers actual JavaScript/TypeScript package projects and runs declared lint/test/build scripts where supported. Empty scaffold folders are skipped.
+```bash
+python scripts/validate_all.py
+```
 
-## Publication
+Empty scaffold folders are skipped. Buildable projects are validated only when their source is actually present.
 
-Author: Ram Sandesh  
-GitHub profile: https://www.github.com/sanskarIN  
-Project/content contact: sanskarin@outlook.in
+## Publication status
+
+The numbered core learning series closes at **Part 150**. Future repository work should focus on companion-code completion, errata, documentation improvements, examples, tests, maintenance, and versioned releases rather than inventing Part 151.
+
+## Author and contact
+
+**Author:** Ram Sandesh  
+**GitHub:** https://github.com/sanskarIN  
+**Project/content contact:** sanskarin@outlook.in
+
+No author avatar/photo is required for this project, and no X/Twitter profile link is included in the repository documentation.
