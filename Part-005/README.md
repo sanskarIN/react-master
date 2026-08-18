@@ -1,0 +1,6 @@
+# Part 005 — State, Events, Forms, and Interactive Component Architecture
+
+Series: React Full Mastery
+Author: Ram Sandesh
+
+Companion workspace for Part 5. Add available examples, exercises, tests, fixtures, and build notes here. Historical companion source was not included in the final publication archive.
