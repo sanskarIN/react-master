@@ -1,0 +1,2 @@
+Detected buildable package projects: 0
+Validation complete. Empty scaffold folders were skipped.
